@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAriana" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDFCFB"/>
+      <stop offset="50%" stop-color="#F8E9E2"/>
+      <stop offset="100%" stop-color="#EED8CE"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDFC4"/>
+      <stop offset="100%" stop-color="#F0B58D"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38261F"/>
+      <stop offset="100%" stop-color="#1A120E"/>
+    </linearGradient>
+    <linearGradient id="blazer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A342F"/>
+      <stop offset="100%" stop-color="#231F1C"/>
+    </linearGradient>
+    <linearGradient id="goldAriana" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D98D"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7734"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgAriana)"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#goldAriana)" stroke-width="2" stroke-dasharray="4,6" opacity="0.4"/>
+  <!-- Hair back -->
+  <path d="M 120 180 C 110 270, 100 350, 130 400 L 270 400 C 300 350, 290 270, 280 180 Z" fill="url(#hair)"/>
+  <!-- Neck & Shoulders -->
+  <rect x="175" y="210" width="50" height="60" rx="8" fill="url(#skin)"/>
+  <!-- Blazer -->
+  <path d="M 80 400 C 90 290, 130 260, 160 260 L 240 260 C 270 260, 310 290, 320 400 Z" fill="url(#blazer)"/>
+  <!-- Blouse & Lapels -->
+  <polygon points="175,260 225,260 200,310" fill="#FAF9F6"/>
+  <polygon points="145,260 175,340 200,350 160,260" fill="#231F1C"/>
+  <polygon points="255,260 225,340 200,350 240,260" fill="#231F1C"/>
+  <!-- Gold Pendant -->
+  <circle cx="200" cy="290" r="4" fill="url(#goldAriana)"/>
+  <!-- Head & Face -->
+  <ellipse cx="200" cy="175" rx="55" ry="65" fill="url(#skin)"/>
+  <!-- Hair front -->
+  <path d="M 145 160 C 140 100, 260 100, 255 160 C 240 130, 210 135, 200 145 C 190 135, 160 130, 145 160 Z" fill="url(#hair)"/>
+  <!-- Subtle eyes, smile, blush -->
+  <circle cx="178" cy="175" r="3.5" fill="#2D2926"/>
+  <circle cx="222" cy="175" r="3.5" fill="#2D2926"/>
+  <path d="M 172 165 Q 178 160 184 165" fill="none" stroke="#2D2926" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 216 165 Q 222 160 228 165" fill="none" stroke="#2D2926" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="168" cy="188" r="8" fill="#E89680" opacity="0.35"/>
+  <circle cx="232" cy="188" r="8" fill="#E89680" opacity="0.35"/>
+  <path d="M 190 198 Q 200 208 210 198" fill="none" stroke="#C06258" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Gold Earring -->
+  <circle cx="146" cy="185" r="4" fill="url(#goldAriana)"/>
+  <circle cx="254" cy="185" r="4" fill="url(#goldAriana)"/>
+</svg>

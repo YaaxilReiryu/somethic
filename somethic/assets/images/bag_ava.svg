@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F2EDE9"/>
+    </linearGradient>
+    <linearGradient id="noirLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A3633"/>
+      <stop offset="100%" stop-color="#23201D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C778"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7734"/>
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#2D2926" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad3)" rx="16"/>
+  <!-- Crossbody Long Strap -->
+  <path d="M 60 40 C 60 180, 110 200, 110 200" fill="none" stroke="#23201D" stroke-width="6"/>
+  <path d="M 340 40 C 340 180, 290 200, 290 200" fill="none" stroke="#23201D" stroke-width="6"/>
+  <!-- Crossbody Body -->
+  <rect x="105" y="180" width="190" height="135" rx="14" fill="url(#noirLeather)" filter="url(#shadow3)"/>
+  <!-- Flap -->
+  <path d="M 105 180 L 295 180 L 295 240 Q 200 270 105 240 Z" fill="#2E2A27"/>
+  <!-- Turnlock Clasp -->
+  <circle cx="200" cy="245" r="12" fill="url(#goldGrad3)"/>
+  <rect x="194" y="243" width="12" height="4" rx="2" fill="#23201D"/>
+  <text x="200" y="360" font-family="'Playfair Display', serif" font-size="12" fill="#8E867E" text-anchor="middle" letter-spacing="3">SOMETHIC • AVA CROSSBODY</text>
+</svg>

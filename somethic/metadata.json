@@ -1,0 +1,6 @@
+{
+  "name": "SOMETHIC - Handbag Retail Store",
+  "description": "A modern handbag retail storefront featuring product catalog, store pickup reservation, staff inventory checklist, and store manager profile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

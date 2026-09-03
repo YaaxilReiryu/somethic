@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBella" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F7EFE9"/>
+    </linearGradient>
+    <linearGradient id="roseLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7B9A8"/>
+      <stop offset="100%" stop-color="#CA9783"/>
+    </linearGradient>
+    <linearGradient id="goldBella" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D98D"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7734"/>
+    </linearGradient>
+    <filter id="shadowBella" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#2D2926" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgBella)" rx="16"/>
+  <!-- Top Handle -->
+  <path d="M 155 200 C 155 130, 245 130, 245 200" fill="none" stroke="url(#goldBella)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Mini Bag Structure -->
+  <rect x="135" y="195" width="130" height="110" rx="10" fill="url(#roseLeather)" filter="url(#shadowBella)"/>
+  <!-- Front Flap Envelope -->
+  <polygon points="135,195 265,195 200,245" fill="#BA8470"/>
+  <!-- Gold Magnetic Clasp -->
+  <circle cx="200" cy="242" r="6" fill="url(#goldBella)"/>
+  <text x="200" y="355" font-family="'Playfair Display', serif" font-size="12" fill="#8E867E" text-anchor="middle" letter-spacing="3">SOMETHIC • BELLA MINI</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F3EEEA"/>
+    </linearGradient>
+    <linearGradient id="leatherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2D4C9"/>
+      <stop offset="100%" stop-color="#CBB5A5"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C778"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7734"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#2D2926" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)" rx="16"/>
+  <!-- Shoulder Strap -->
+  <path d="M 130 200 C 130 90, 270 90, 270 200" fill="none" stroke="url(#leatherGrad)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 130 200 C 130 90, 270 90, 270 200" fill="none" stroke="#2D2926" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+  <!-- Gold Strap Buckles -->
+  <rect x="122" y="190" width="16" height="20" rx="3" fill="url(#goldGrad)"/>
+  <rect x="262" y="190" width="16" height="20" rx="3" fill="url(#goldGrad)"/>
+  <!-- Luna Crescent Body -->
+  <path d="M 90 200 Q 200 180 310 200 C 320 280, 290 320, 200 320 C 110 320, 80 280, 90 200 Z" fill="url(#leatherGrad)" filter="url(#shadow)"/>
+  <!-- Stitching Line -->
+  <path d="M 100 205 Q 200 188 300 205 C 308 275, 282 310, 200 310 C 118 310, 92 275, 100 205 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+  <!-- Center Gold Accent Tag -->
+  <circle cx="200" cy="235" r="7" fill="url(#goldGrad)"/>
+  <text x="200" y="360" font-family="'Playfair Display', serif" font-size="12" fill="#8E867E" text-anchor="middle" letter-spacing="3">SOMETHIC • LUNA</text>
+</svg>

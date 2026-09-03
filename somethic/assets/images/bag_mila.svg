@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#F2ECE8"/>
+    </linearGradient>
+    <linearGradient id="toteLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#846654"/>
+      <stop offset="100%" stop-color="#5E4333"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C778"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9A7734"/>
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#2D2926" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad2)" rx="16"/>
+  <!-- Dual Handles -->
+  <path d="M 140 180 C 140 80, 200 80, 200 180" fill="none" stroke="#4A3427" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 200 180 C 200 80, 260 80, 260 180" fill="none" stroke="#4A3427" stroke-width="10" stroke-linecap="round"/>
+  <!-- Handle Hardware -->
+  <circle cx="140" cy="180" r="7" fill="url(#goldGrad2)"/>
+  <circle cx="200" cy="180" r="7" fill="url(#goldGrad2)"/>
+  <circle cx="260" cy="180" r="7" fill="url(#goldGrad2)"/>
+  <!-- Tote Main Trapezoid Body -->
+  <polygon points="90,170 310,170 290,325 110,325" fill="url(#toteLeather)" filter="url(#shadow2)"/>
+  <!-- Top Trim -->
+  <rect x="90" y="165" width="220" height="12" rx="4" fill="#4A3427"/>
+  <!-- Center Gold Logo Plaque -->
+  <rect x="182" y="210" width="36" height="14" rx="2" fill="url(#goldGrad2)"/>
+  <text x="200" y="221" font-family="'Playfair Display', serif" font-size="7" fill="#2D2926" text-anchor="middle" font-weight="bold">SOMETHIC</text>
+  <text x="200" y="360" font-family="'Playfair Display', serif" font-size="12" fill="#8E867E" text-anchor="middle" letter-spacing="3">SOMETHIC • MILA TOTE</text>
+</svg>
