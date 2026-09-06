@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/config/database.php';
-echo $pdo->getAttribute(PDO::ATTR_DRIVER_NAME); // TEMP DEBUG — remove after checking
+
 $page_title = 'SOMETHIC — Handbag Retail Boutique';
 require_once __DIR__ . '/includes/header.php';
 
