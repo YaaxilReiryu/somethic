@@ -11,7 +11,7 @@
 
 // Retrieve database configuration from environment variables or use local XAMPP defaults
 $db_host = getenv('DB_HOST') ?: getenv('MYSQLHOST') ?: 'localhost';
-$db_port = getenv('DB_PORT') ?: getenv('MYSQLPORT') ?: '4306';
+$db_port = getenv('DB_PORT') ?: getenv('MYSQLPORT') ?: '3306';
 $db_name = getenv('DB_DATABASE') ?: getenv('MYSQLDATABASE') ?: 'somethic';
 $db_user = getenv('DB_USERNAME') ?: getenv('MYSQLUSER') ?: 'root';
 $db_pass = getenv('DB_PASSWORD') !== false ? getenv('DB_PASSWORD') : (getenv('MYSQLPASSWORD') !== false ? getenv('MYSQLPASSWORD') : '');
