@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/config/database.php';
-
-$page_title = 'testetesasdanwoiSOMETHIC — Handbag Retail Boutique';
+    echo $pdo->getAttribute(PDO::ATTR_DRIVER_NAME);
+$page_title = 'ni jadi en? SOMETHIC — Handbag Retail Boutique';
 require_once __DIR__ . '/includes/header.php';
 
 // Fetch 4 featured handbags
