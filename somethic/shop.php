@@ -49,7 +49,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="col-lg-7">
       <!-- About SOMETHIC -->
       <div class="mb-5">
-        <span class="text-uppercase small fw-bold" style="letter-spacing: 0.12em; color: var(--somethic-gold);">Who We Are</span>
+        <span class="text-uppercase small fw-bold" style="letter-spacing: 0.90em; color: var(--somethic-dark);">Who We Are</span>
         <h2 class="mt-1 mb-3">About SOMETHIC</h2>
         <p class="text-muted" style="line-height: 1.8;">
           Founded with a passion for refined minimalism, SOMETHIC curates accessories that effortlessly bridge daytime utility and evening glamour. We believe luxury should never be gatekept by exorbitant price tags or fragile materials. Every handbag in our boutique is tested for weight distribution, daily durability, and aesthetic longevity.
