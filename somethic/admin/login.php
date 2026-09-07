@@ -163,25 +163,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
 
         <!-- Demo Credentials Notice & Quick Actions Box -->
-        <div class="mt-4 pt-3 border-top text-center" style="border-color: var(--somethic-border) !important;">
-          <small class="text-muted d-block mb-2 fw-bold">Demo Staff Credentials:</small>
-          
-          <div class="p-3 rounded small font-monospace text-start mb-3" style="background-color: var(--somethic-sand); border: 1px dashed var(--somethic-border);">
-            <div class="d-flex justify-content-between align-items-center mb-1">
-              <span>Email: <strong>admin@somethic.com</strong></span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-2">
-              <span>Password: <strong>password</strong></span>
-            </div>
-            <div class="d-flex gap-2 mt-2">
-              <button type="button" class="btn btn-sm btn-outline-dark flex-grow-1" id="btnFillDemo" style="font-size: 0.75rem;">
-                <i class="bi bi-magic me-1"></i> Autofill Form
-              </button>
-              <button type="button" class="btn btn-sm btn-somethic-gold flex-grow-1" id="btnQuickLogin" style="font-size: 0.75rem;">
-                <i class="bi bi-lightning-fill me-1"></i> Quick Sign In
-              </button>
-            </div>
-          </div>
+        
 
           <div class="d-flex justify-content-between align-items-center mt-3 pt-2">
             <a href="../index.php" class="text-muted small text-decoration-none">
